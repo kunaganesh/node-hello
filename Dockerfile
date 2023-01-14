@@ -6,3 +6,5 @@ COPY package*.json ./
 COPY . .
 EXPOSE 3000
 CMD ["node", "index.js"]
+VOLUME /usr/src/app
+
